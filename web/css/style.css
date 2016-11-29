@@ -500,7 +500,7 @@ ul.bann-btns li a:hover {
     margin-bottom: 3em;
 }
 .home-grid:hover .home-product-bottom{
-	 background:#EA572D;
+	 background:#383837;
 }
 .home-grid:hover .home-product-bottom h3 a{
 	color:#fff;
@@ -535,7 +535,7 @@ ul.bann-btns li a:hover {
     right:-1px;
 }
 .srch span {
-    background:#EA572D;
+    background:#383837;
     color: #fff;
     font-size: 15px;
     font-weight: 400;
@@ -681,7 +681,7 @@ select.country:hover{
 .footer-grid-icon input[type="submit"] {
     font-size: 1em;
     color: #fff;
-    background: #EA572D;
+    background: #383837;
     border: none;
     padding: 0.5em 1em;
     outline: none;
@@ -1431,7 +1431,7 @@ ul.cart-header li span h6,ul.cart-header1 li span h6,ul.cart-header2 li span h6{
 }
 .signin-main h1{
     font-size: 2em;
-    color:#EA572D;
+    color:#383837;
     font-family: 'Oswald', sans-serif;
         text-align: center;
 }
@@ -1554,7 +1554,7 @@ span.checkbox1 {
 }
 .login-main h1 {
     font-size: 2.5em;
-    color: #EA572D;
+    color: #383837;
     margin-bottom: 1.4em;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -1595,7 +1595,7 @@ span.checkbox1 {
     color: #fff;
     padding: 0.5em 1.5em;
     border: none;
-    background:#EA572D;
+    background:#383837;
     outline: none;
     display: block;
     margin-top: 1em;
@@ -2524,7 +2524,7 @@ select.bann-size {
 .home-product-bottom h3 {
     font-size: 1em;
 }
-.home-product-bottom p {
+. duct-bottom p {
     font-size: 0.8em;
     margin-top: 0.3em;
 }
