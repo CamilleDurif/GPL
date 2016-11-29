@@ -83,9 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							            </div>
 						            </ul>
 						        </li>
-						         <li class="dropdown">
-						        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Nouveautés<b class="caret"></b></a>
-						         </li>
+						         <li><a href="product.html">Nouveautés<b class="caret"></a></li>
 						        <li><a href="contact.html">Pro</a></li>
 					        </ul>
 					    </div>
@@ -107,10 +105,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span class="simpleCart_total"></span></div>
 							</h3>
 						</a>
-						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+						<p><a href="javascript:;" class="simpleCart_empty">0 article</a></p>
 					</div>    
 					<div class="head-signin">
-						<h5><a href="login.html"><i class="hd-dign"></i>Sign in</a></h5>
+						<h5><a href="login.html"><i class="hd-dign"></i>Connexion</a></h5>
 					</div>              
                      <div class="clearfix"> </div>					
 				</div>
@@ -212,7 +210,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					      <a href="single.html"><img src="images/h5.jpg" alt="" class="img-responsive zoom-img"></a>
 					   </div>
 						<div class="srch">
-							<span>$200</span>
+							<span>▶</span>
 						</div>
 					</div>
 				 </div>
@@ -222,7 +220,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					      <a href="single.html"><img src="images/h6.jpg" alt="" class="img-responsive zoom-img"></a>
 					   </div>
 						<div class="srch">
-							<span>$200</span>
+							<span>▶</span>
 						</div>
 					</div>
 				 </div>
@@ -232,7 +230,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					      <a href="single.html"><img src="images/h7.jpg" alt="" class="img-responsive zoom-img"></a>
 					   </div>
 						<div class="srch">
-							<span>$200</span>
+							<span>▶</span>
 						</div>
 					</div>
 				 </div>
@@ -242,7 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					      <a href="single.html"><img src="images/h8.jpg" alt="" class="img-responsive zoom-img"></a>
 					   </div>
 						<div class="srch">
-							<span>$200</span>
+							<span>▶</span>
 						</div>
 					</div>
 				 </div>
@@ -252,7 +250,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					      <a href="single.html"><img src="images/h9.jpg" alt="" class="img-responsive zoom-img"></a>
 					   </div>
 						<div class="srch">
-							<span>$200</span>
+							<span>▶</span>
 						</div>
 					</div>
 				 </div>
@@ -262,7 +260,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					      <a href="single.html"><img src="images/h10.jpg" alt="" class="img-responsive zoom-img"></a>
 					   </div>
 						<div class="srch">
-							<span>14.99€</span>
+							<span>▶</span>
 						</div>
 					</div>
 				 </div>

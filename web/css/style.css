@@ -531,16 +531,16 @@ ul.bann-btns li a:hover {
 .srch {
     display: none;
     position: absolute;
-    top: 18%;
-    right:-1px;
+    top: 50%;
+    left: 40%;
 }
 .srch span {
     background:#383837;
     color: #fff;
     font-size: 15px;
     font-weight: 400;
-    padding: 10px 25px;
-    border-radius: 18px 2px 16px 2px;
+    padding: 10px 20px;
+    border-radius: 18px 18px 18px 18px;
 }
 .home-product-bottom {
     padding: 1em 1.5em;
