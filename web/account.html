@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Créer un compte</title>
+<title>Mon compte</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -110,26 +110,89 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </div>
 <!--header end here-->
-<!--sign in start here-->
-<div class="signin">
-	<div class="container">
-		<div class="signin-main">
-			<h1>Créer un compte</h1>
-			<h2>Informations</h2>
+<!--start-ckeckout-->
+	<div class="ckeckout">
+		<div class="container">
+			<div class="ckeckout-top">
+			<div class=" cart-items heading">
+			 <h1>Mes Commandes</h1>
+				<script>$(document).ready(function(c) {
+					$('.close1').on('click', function(c){
+						$('.cart-header').fadeOut('slow', function(c){
+							$('.cart-header').remove();
+						});
+						});	  
+					});
+			   </script>
+			<script>$(document).ready(function(c) {
+					$('.close2').on('click', function(c){
+						$('.cart-header1').fadeOut('slow', function(c){
+							$('.cart-header1').remove();
+						});
+						});	  
+					});
+			   </script>
+			   <script>$(document).ready(function(c) {
+					$('.close3').on('click', function(c){
+						$('.cart-header2').fadeOut('slow', function(c){
+							$('.cart-header2').remove();
+						});
+						});	  
+					});
+			   </script>
+				
+			<div class="in-check" >
+				<ul class="unit">
+					<li><span>Aperçu</span></li>
+					<li><span>Produit</span></li>		
+					<li><span>Prix unitaire</span></li>
+					<li><span>Détails livraison</span></li>
+					<li> </li>
+					<div class="clearfix"> </div>
+				</ul>
+				<ul class="cart-header simpleCart_shelfItem">
+					<div class="close1"> </div>
+						<li class="ring-in"><a href="single.html" ><img src="images/c.jpg" class="img-responsive" alt=""></a>
+						</li>
+						<li><span>Bracelets</span></li>
+						<li><span class="item_price">$ 290.00</span></li>
+						<li> <a href="#" class="add-cart cart-check item_add">Add to cart</a></li>				
+					<div class="clearfix"> </div>
+				</ul>
+				<ul class=" cart-header1 simpleCart_shelfItem">
+					<div class="close2"> </div>
+						<li class="ring-in"><a href="single.html" ><img src="images/c2.jpg" class="img-responsive" alt=""></a>
+						</li>
+						<li><span>Watches</span></li>
+						<li><span class="item_price">$ 300.00</span></li>
+						<li> <a href="#" class="add-cart cart-check item_add">Add to cart</a></li>						
+						<div class="clearfix"> </div>
+				</ul>
+				<ul class="cart-header2 simpleCart_shelfItem">
+					<div class="close3"> </div>
+						<li class="ring-in"><a href="single.html" ><img src="images/c3.jpg" class="img-responsive" alt=""></a>
+						</li>
+						<li><span>Handbag</span></li>
+						<li><span class="item_price">$ 360.00</span></li>
+						<li> <a href="#" class="add-cart cart-check item_add">Add to cart</a></li>						
+						<div class="clearfix"> </div>
+				</ul>
+			</div>
+            <h3> Mes informations </h3>
+            <div class="col-md-6 contact-right">
+				<h1>Modifier mes informations</h1>
 			<form>
-				<input type="text" placeholder="Nom d'utilisateur">
-				<input type="text" class="no-margin" placeholder="E-mail">
-				<input type="password" placeholder="Mot de passe" required=""/>
-				<input type="password" class="no-margin" placeholder="Confirmer le mot de passe" required=""/>
-				<span class="checkbox1">
-				 <label class="checkbox"><input type="checkbox" name="" required=""><i> </i>J'accepte les termes et conditions d'utilisation</label>
-			   </span>
-				<input type="submit" id="login-button" value="Confirmer">
+				<input type="text" placeholder="Nom" >
+				<input type="text" placeholder="Email" >
+				<textarea placeholder="Adresse" ></textarea>
+				<input type="submit" id="login-button" value="Envoyer">
 			</form>
+			</div>
+			</div>  
+		 </div>
 		</div>
 	</div>
-</div>
-<!--sign in end here-->
+<!--end-ckeckout-->
 <!--footer strat here-->
 <div class="footer">
 	<div class="container">

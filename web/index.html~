@@ -51,7 +51,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						        <span class="icon-bar"></span>
 					        </button>
 					        <div class="navbar-brand logo">
-								<a href="index.html"><img src="images/logo1.png" alt=""></a>
+								<a href="index.html"><img src="images/logo1.png" alt="" width="50%"></a>
 							</div>
 					    </div>
 					    <!--/.navbar-header-->
@@ -64,10 +64,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							            <div class="row">
 								            <div class="col-sm-4">
 									            <ul class="multi-column-dropdown">
-										            <li><a href="product-m.html">Jazz</a></li>
-										            <li><a href="product-m.html">Rock</a></li>
-										            <li><a href="product-m.html">Classique</a></li>
-										            <li><a href="product-m.html">Enfants</a></li>
+										            <li><a href="product.html">Tout le catalogue</a></li>
+										            <li><a href="product.html">Jazz</a></li>
+										            <li><a href="product.html">Rock</a></li>
+										            <li><a href="product.html">Classique</a></li>
+										            <li><a href="product.html">Enfants</a></li>
 									            </ul>
 								            </div>
 								            

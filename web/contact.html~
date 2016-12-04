@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Créer un compte</title>
+<title>Contact</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -76,7 +76,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						            </ul>
 						        </li>
 						         <li><a href="product.html">Nouveautés</a></li>
-						        <li><a href="pro.html">Pro</a></li>
+						        <li><a href="contact.html">Pro</a></li>
 					        </ul>
 					    </div>
 					    <!--/.navbar-collapse-->
@@ -110,26 +110,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 </div>
 <!--header end here-->
-<!--sign in start here-->
-<div class="signin">
+<!--contact start here-->
+<div class="contact">
 	<div class="container">
-		<div class="signin-main">
-			<h1>Créer un compte</h1>
-			<h2>Informations</h2>
+		<div class="contact-main">
+			<div class="contact-top">
+				<h1>Nous Contacter</h1>
+				<p>Un problème ou une remarque ? Le service clientèle est là pour vous répondre</p>
+			</div>
+			<div class="col-md-6 contact-left">
+				<h2>Informations</h2>
+				<h4>Diffusion musicale à grande échelle</h4>
+				<p>Fondé en 2007, la société MULTIMEDIA WORLDS s'engage à diffuser au maximum les titres les plus récents. Notre siège est situé à Avignon, en France, lieu de culture musicale hautement reconu.</p>
+			    <ul>
+			    	<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"> </span>Avignon, France</li>
+			    	<li><span class="glyphicon glyphicon-phone" aria-hidden="true"> </span>+334 90 12 81 06</li>			    	
+			    	<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span><a href="mailto:info@example.com">contact@multimediaworld.com</a></li>
+			    </ul>
+			</div>
+			<div class="col-md-6 contact-right">
+				<h3>Message</h3>
 			<form>
-				<input type="text" placeholder="Nom d'utilisateur">
-				<input type="text" class="no-margin" placeholder="E-mail">
-				<input type="password" placeholder="Mot de passe" required=""/>
-				<input type="password" class="no-margin" placeholder="Confirmer le mot de passe" required=""/>
-				<span class="checkbox1">
-				 <label class="checkbox"><input type="checkbox" name="" required=""><i> </i>J'accepte les termes et conditions d'utilisation</label>
-			   </span>
-				<input type="submit" id="login-button" value="Confirmer">
+				<input type="text" placeholder="Nom" required="">
+				<input type="text" placeholder="Email" required="">
+				<textarea placeholder="Message" required=""></textarea>
+				<input type="submit" id="login-button" value="Envoyer">
 			</form>
+			</div>
+		  <div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
-<!--sign in end here-->
+<!--contact end here-->
+<!--map start here-->
+<div class="map">
+	<div class="container">
+	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d735792.0365260778!2d4.565802391994372!3d43.91408908498333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5eb8739bc9d07%3A0xe6429b6efa1d7b36!2sAvignon!5e0!3m2!1sfr!2sfr!4v1480520689587" width="700" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+</div>
+<!--map end here-->
 <!--footer strat here-->
 <div class="footer">
 	<div class="container">
